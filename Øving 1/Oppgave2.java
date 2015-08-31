@@ -3,7 +3,7 @@
 
 /*importere bibloteket så en slipper å skrive så mye lengre nedi*/
 import static javax.swing.JOptionPane.*;
-class Oppgave_2-13-2{
+class Oppgave2{
 	public static void main(String[] args){
 		/*Brukeren av programmet skrive inn anntall timer, minutt og sekund*/
 		String timerLest = showInputDialog("Timer: ");
@@ -32,5 +32,4 @@ nr1:		tall:	        resultat:
 1			0,0,0			Totalt anntall sekund: 0
 2			100,100,100		Totalt anntall sekund: 366100
 3			2,2,2			Totalt anntall sekund: 7322
-4			-2,-2,-2		Du kan ikkje skrive inn ett negativt tall.
-*/
+4			-2,-2,-2		Du kan ikkje skrive inn ett negativt tall.*/

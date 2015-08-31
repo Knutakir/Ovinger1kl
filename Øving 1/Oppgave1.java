@@ -1,10 +1,9 @@
 /*Øving 1*/
 /*Oppgave 2.13.1 side 83/
 
-
 /*importere bibloteket så man slipper å skrive så mye lengre nedi*/
 import static javax.swing.JOptionPane.*;
-class Oppgave_2-13-1{
+class Oppgave1{
 	public static void main(String[] args){
 		/*Brukeren av programmet skrive inn kor mange tommer som skal gjøres om*/
 		String tommerLest = showInputDialog("Tommer: ");
@@ -34,5 +33,4 @@ nr1:		tall:	resultat:
 1			0		Du må skrive ett tall større enn null.
 2			100		100.0 tommer = 254.0 centimeter.
 3			2		2.0 tommer = 5.08 centimeter.
-4			-2		Du må skrive ett tall større enn null.
-*/
+4			-2		Du må skrive ett tall større enn null.*/
