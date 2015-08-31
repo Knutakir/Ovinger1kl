@@ -1,7 +1,7 @@
-/*Ã˜ving 1*/
+/*Øving 1*/
 /*Oppgave 2.13.2 side 83/
 
-/*importere bibloteket sÃ¥ en slipper Ã¥ skrive sÃ¥ mye lengre nedi*/
+/*importere bibloteket så en slipper å skrive så mye lengre nedi*/
 import static javax.swing.JOptionPane.*;
 class Oppgave2{
 	public static void main(String[] args){
@@ -10,7 +10,7 @@ class Oppgave2{
 		String minuttLest = showInputDialog("Minutt: ");
 		String sekundLest = showInputDialog("Sekund: ");
 
-		/*Lese timer, minutt og sekund. GjÃ¸r det om fra tekst til integer*/
+		/*Lese timer, minutt og sekund. Gjør det om fra tekst til integer*/
 		int timerIS = Integer.parseInt(timerLest) * 3600;
 		int minuttIS = Integer.parseInt(minuttLest) * 60;
 		int sekund = Integer.parseInt(sekundLest);
@@ -18,7 +18,7 @@ class Oppgave2{
 		/*Regne ut kor mange sekund dette blir*/
 		int totaltSekund = timerIS + minuttIS + sekund;
 
-		/*Sjekke om tiden er negativ. Og sÃ¥ vise en meldingsboks.*/
+		/*Sjekke om tiden er negativ. Og så vise en meldingsboks.*/
 		if(totaltSekund > 0){
 			showMessageDialog(null, "Totalt anntall sekund: " + totaltSekund);
 		} else {
@@ -29,14 +29,7 @@ class Oppgave2{
 }
 /* Testdatasett
 nr1:		tall:	        resultat:
-<<<<<<< HEAD:Ã˜ving 1/Oppgave2.java
-1			0,0,0			Totalt anntall sekund: 0
+1			0,0,0			Totalt anntall sekund: 0x
 2			100,100,100		Totalt anntall sekund: 366100
 3			2,2,2			Totalt anntall sekund: 7322
 4			-2,-2,-2		Du kan ikkje skrive inn ett negativt tall.*/
-=======
-1		0,0,0			Totalt anntall sekund: 0
-2		100,100,100		Totalt anntall sekund: 366100
-3		2,2,2			Totalt anntall sekund: 7322
-4		-2,-2,-2		Du kan ikkje skrive inn ett negativt tall.*/
->>>>>>> origin/Ã˜vinger:Ã˜ving 1/Oppgave_2-13-2.java
