@@ -1,38 +1,38 @@
-/*ÿving 1*/
+/*√òving 1*/
 /*Oppgave 2.13.1 side 83/
 
 /*Importerer JOptionPane for mindre skriving senere*/
 import static javax.swing.JOptionPane.*;
 class Oving3123{
 	public static void main(String[] args){
-		/*Brukeren av programmet skriver inn et Ârstall*/
-		String ÂrLest = showInputDialog("Skriv et Âr: ");
+		/*Brukeren av programmet skriver inn et √•rstall*/
+		String √•rLest = showInputDialog("Skriv et √•r: ");
 
-		/*Tallet gj¯res om fra String til int*/
-		int Âr = Integer.parseInt(ÂrLest);
+		/*Tallet gj√∏res om fra String til int*/
+		int √•r = Integer.parseInt(√•rLest);
 
-		if(Âr >= 0){
-			/*Sjekke om Ârstallet er delelig med 4*/
-			if(Âr%4 != 0){
-				showMessageDialog(null, "≈ret er ikkje et skuddÂr.");
-			} else if (Âr%100 != 0){
-				showMessageDialog(null, "≈ret er et skuddÂr.");
-			} else if (Âr%400 != 0){
-				showMessageDialog(null, "≈ret er ikkje et skuddÂr.");
+		if(√•r >= 0){
+			/*Sjekke om √•rstallet er delelig med 4*/
+			if(√•r%4 != 0){
+				showMessageDialog(null, "√Öret er ikkje et skudd√•r.");
+			} else if (√•r%100 != 0){
+				showMessageDialog(null, "√Öret er et skudd√•r.");
+			} else if (√•r%400 != 0){
+				showMessageDialog(null, "√Öret er ikkje et skudd√•r.");
 			}else{
-				showMessageDialog(null, "≈ret er et skuddÂr.");
+				showMessageDialog(null, "√Öret er et skudd√•r.");
 			}
 		} else {
-			showMessageDialog(null, "Du mÂ skrive inn et positivt Âr.");
+			showMessageDialog(null, "Du m√• skrive inn et positivt √•r.");
 		}
 	}
 }
 
 /* Testdatasett
 nr1:		tall:	        resultat:
-1			0				≈ret er et skuddÂr.
-2			100				≈ret er ikkje et skuddÂr.
-3			4				Timer: 0, minutt: 0, sekund: 2
-4			400				≈ret er et skuddÂr.
-5			800				≈ret er et skuddÂr.
-6			-2				Du mÂ skrive inn et positivt Âr.*/
+1		0				√Öret er et skudd√•r.
+2		100				√Öret er ikkje et skudd√•r.
+3		4				Timer: 0, minutt: 0, sekund: 2
+4		400				√Öret er et skudd√•r.
+5		800				√Öret er et skudd√•r.
+6		-2				Du m√• skrive inn et positivt √•r.*/
