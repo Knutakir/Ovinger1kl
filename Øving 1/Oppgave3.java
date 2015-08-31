@@ -1,14 +1,14 @@
-/*Øving 1*/
+/*Ã˜ving 1*/
 /*Oppgave 2.13.2 side 83/
 
-/*importere bibloteket så en slipper å skrive så mye lengre nedi*/
+/*importere bibloteket sÃ¥ en slipper Ã¥ skrive sÃ¥ mye lengre nedi*/
 import static javax.swing.JOptionPane.*;
 class Oppgave3{
 	public static void main(String[] args){
 		/*Brukeren av programmet skriver inn anntall sekund*/
 		String sekundLest = showInputDialog("Sekund: ");
 
-		/*Lese totalt sekund. Gjør om fra String til integer*/
+		/*Lese totalt sekund. GjÃ¸r om fra String til integer*/
 		int sekundTOT = Integer.parseInt(sekundLest);
 
 		/*Sekund som er til overs*/
@@ -24,18 +24,18 @@ class Oppgave3{
 
 		/*Kor mange sekund*/
 		int sekund = sekundTO;
-		/*Sjekke om tid er negativ, og større enn 0*/
+		/*Sjekke om tid er negativ, og stÃ¸rre enn 0*/
 		if(sekundTOT > 0){
 			showMessageDialog(null, "Timer: " + timer + ", minutt: " + minutt + ", sekund: " + sekund);
 		} else {
-			showMessageDialog(null, "Du må skrive inn positivt anntall sekund.");
+			showMessageDialog(null, "Du mÃ¥ skrive inn positivt anntall sekund.");
 		}
 	}
 }
 
 /* Testdatasett
 nr1:		tall:	        resultat:
-1			0				Timer: 0, minutt: 0, sekund: 0
-2			100				Timer: 0, minutt: 1, sekund: 40
-3			2				Timer: 0, minutt: 0, sekund: 2
-4			-2				Du må skrive inn positivt anntall sekund.*/
+1		0				Timer: 0, minutt: 0, sekund: 0
+2		100				Timer: 0, minutt: 1, sekund: 40
+3		2				Timer: 0, minutt: 0, sekund: 2
+4		-2				Du mÃ¥ skrive inn positivt anntall sekund.*/
