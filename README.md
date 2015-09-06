@@ -1,5 +1,5 @@
 ﻿# Programmeringsøvinger
-Øvinger fra 1.klasse på Data på HiST.
+Øvinger fra 1.klasse på Data på HiST i faget TDAT1001 Programmering grunnkurs.
 
 Skal legge ut øvingene etterhvert her.
  - Øvinger som er lagt ut så langt er Øving 1-3
