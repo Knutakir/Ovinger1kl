@@ -1,6 +1,7 @@
 import static javax.swing.JOptionPane.*;
 class Oppgave2 {
 	public static void main(String[] args){
+		//Deklarerer alle valutaene
 		Valuta USD = new Valuta("Amerikanske Dollar", 6.7512, 1);
 		Valuta EUR = new Valuta("Euro", 8.0555, 1);
 		Valuta SEK = new Valuta("Svenske Kroner", 86.03/100, 100);
