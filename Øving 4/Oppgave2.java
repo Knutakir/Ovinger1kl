@@ -9,12 +9,11 @@ class Oppgave2 {
 		boolean ferdig = false;
 
 		while(!ferdig){
-
 			int fraTil = 0;
-
-			String fraEllerTil = showInputDialog("Vil du beregne fra eller til NOK (fra/til) (a = avslutt): ");
+			String fraEllerTil = showInputDialog("Vil du regne fra eller til NOK (fra/til) (a = avslutt): ");
 			char fraEllerT = fraEllerTil.charAt(0);
 			boolean tilNorske = false;
+
 			switch(fraEllerT){
 				case 'f':
 					String tilHva = showInputDialog("Hva vil du regne om til (USD=1, EUR=2, SEK=3, DKK=4)?");
@@ -29,7 +28,7 @@ class Oppgave2 {
 					return;
 			}
 
-			String anntall = showInputDialog("Hvor mye vil du regne om: ");
+			String anntall = showInputDialog("Skriv inn hvor mye vil du regne om: ");
 			double anntallLest = Double.parseDouble(anntall);
 
 			if(tilNorske){
@@ -47,7 +46,6 @@ class Oppgave2 {
 					showMessageDialog(null, DKK.beregnTilNok(anntallLest));
 					break;
 				}
-
 			} else {
 				switch(fraTil){
 					case 1:
@@ -64,7 +62,6 @@ class Oppgave2 {
 						break;
 				}
 			}
-
 		}
 	}
 }

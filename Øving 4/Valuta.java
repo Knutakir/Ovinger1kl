@@ -10,7 +10,7 @@ class Valuta{
 		this.enhet = enhet;
 	}
 
-	public String finnNavn(){
+	public String hentNavn(){
 		return valutaNavn;
 	}
 
