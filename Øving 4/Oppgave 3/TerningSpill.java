@@ -9,7 +9,7 @@ class TerningSpill{
 			spiller2.kastTerningen();
 			kastNr += 1;
 			System.out.println("Kast nummer: " + kastNr);
-			System.out.println("Spiller 1 har: " + spiller1.getSumPoeng() + " poeng. Og spiller 2 har: " + spiller2.getSumPoeng());
+			System.out.println("Spiller 1 har: " + spiller1.getSumPoeng() + " poeng. Og spiller 2 har: " + spiller2.getSumPoeng() + " poeng.");
 		}
 
 	}
