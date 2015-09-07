@@ -1,5 +1,4 @@
 class Valuta{
-
 	private String valutaNavn;
 	private double kurs;
 	private int enhet;
