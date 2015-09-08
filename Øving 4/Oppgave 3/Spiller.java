@@ -1,7 +1,7 @@
 class Spiller{
 	private int sumPoeng;
 	java.util.Random terning = new java.util.Random();
-	private String navn;
+	//private String navn;
 
 	//public Spiller(){
 	//}
