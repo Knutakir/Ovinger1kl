@@ -26,14 +26,10 @@ class Valuta{
 	}
 
 	public double beregnTilNok(double anntall){
-		double norskeKroner = 0;
-		norskeKroner = anntall*kurs;
-		return norskeKroner;
+		return anntall*kurs;
 	}
 
 	public double beregnFraNok(double anntall){
-		double nyttAnntall = 0;
-		nyttAnntall = anntall/kurs;
 		return nyttAnntall;
 	}
 }
