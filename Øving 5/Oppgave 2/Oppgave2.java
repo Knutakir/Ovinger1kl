@@ -8,7 +8,11 @@ class Oppgave2{
 		String nevner = showInputDialog("Skriv inn nevner: ");
 		int nevnerLest = Integer.parseInt(nevner);
 
-		BrokRegner brok1 = new BrokRegner(tellerLest, nevnerLest);
+		try{
+			BrokRegner brok1 = new BrokRegner(tellerLest, nevnerLest);
+		} catch(IllegalArgumentException iae){
+			showMessageDialog(null, iae);
+		}
 
 		while(true){
 			String operasjon = showInputDialog("Hvilken operasjon vi du utføre? (SUB=1, DIV=2, MUL=3, ADD=4)");
