@@ -1,7 +1,7 @@
 ﻿# Programmeringsøvinger
 Øvinger fra 1.klasse på Data på HiST i faget TDAT1001 Programmering grunnkurs.
 
-Programmene er programmert i Java.
+Programmene er programmert i språket Java.
 
 Skal legge ut øvingene etterhvert her.
  - Øvinger som er lagt ut så langt er Øving 1-6
