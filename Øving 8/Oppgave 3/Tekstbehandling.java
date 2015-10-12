@@ -12,6 +12,12 @@ class Tekstbehandling{
 		return ord.length;
 	}
 
+	//alternativ måte
+	public int ordITeksten2(){
+		StringTokenizer st = new StringTokenizer(teksten, " ");
+		return st.countTokens();
+	}
+
 	public double gjsnittOrdLengde(){
 		StringTokenizer st = new StringTokenizer(teksten, ".! ");
 		double ordLengde = 0;
