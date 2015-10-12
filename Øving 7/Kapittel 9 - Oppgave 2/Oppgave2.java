@@ -19,7 +19,7 @@ class Oppgave2{
 		while(true){
 			String hvilkenOppg = showInputDialog("Hva for en oppgave(a, b, c, d)?");
 
-			switch(hvilkenOppg.charAt(0)){
+			switch(hvilkenOppg.toLowerCase().charAt(0)){
 				case('a'):
 					System.out.println("MIDDELTEMPERATUR FOR HVER DAG");
 					double[] middelTDag = temp1.middelTempDag();

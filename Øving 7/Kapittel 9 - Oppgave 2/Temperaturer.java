@@ -1,7 +1,6 @@
 class Temperaturer{
 	private int[][] temperaturer = new int[31][24];
 
-
 	public Temperaturer(int[][] temperaturene){
 		for(int i = 0; i < temperaturene.length; i++){
 			for(int k = 0; k < temperaturene[0].length; k++){
@@ -9,7 +8,7 @@ class Temperaturer{
 			}
 		}
 	}
-
+	//OBS: Middeltemperaturmetodene er gjort FEIL!! Dette er gjennomsnittsmetoder.
 	public double[] middelTempDag(){
 		double[] tempen = new double[31];
 		for(int i = 0; i < 31; i++){
