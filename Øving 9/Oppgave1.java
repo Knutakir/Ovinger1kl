@@ -4,7 +4,6 @@ Side 386 i læreboken
 */
 
 import static javax.swing.JOptionPane.*;
-import java.util.GregorianCalendar;
 
 class Oppgave1{
 	public static void main(String[] args){

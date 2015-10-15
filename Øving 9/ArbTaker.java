@@ -1,4 +1,5 @@
 import java.util.GregorianCalendar;
+import java.util.*;
 
 class ArbTaker{
 	public final Person personalia;
@@ -12,14 +13,6 @@ class ArbTaker{
 		this.personalia = personen;
 		this.arbtakernr = arbNr;
 		this.ansettelsesaar = aAar;
-		this.maanedslonn = mndLonn;
-		this.skatteprosent = skProsent;
-	}
-
-	public ArbTaker(Person personen, int arbNr, int mndLonn, int skProsent){
-		this.personalia = personen;
-		this.arbtakernr = arbNr;
-		this.ansettelsesaar = kalender.get(java.util.Calendar.YEAR); //Sette til året som er no
 		this.maanedslonn = mndLonn;
 		this.skatteprosent = skProsent;
 	}
@@ -45,11 +38,11 @@ class ArbTaker{
 	}
 
 	public void setMaanedslonn(int nyMndslonn){
-		this.maanedslonn = nyMndslonn;
+		maanedslonn = nyMndslonn;
 	}
 
 	public void setSkatteprosent(double nySktprosent){
-		this.skatteprosent = nySktprosent;
+		skatteprosent = nySktprosent;
 	}
 
 	public double skattPerMnd(){
@@ -72,11 +65,11 @@ class ArbTaker{
 	}
 
 	public int hentAlder(){
-		return kalender.get(java.util.Calendar.YEAR) - personalia.getFodselsaar();
+		return kalender.get(Calendar.YEAR) - personalia.getFodselsaar();
 	}
 
 	public boolean ansattLengreEnn(int aar){
-		if((kalender.get(java.util.Calendar.YEAR) - ansettelsesaar) > aar){
+		if((kalender.get(Calendar.YEAR) - ansettelsesaar) > aar){
 			return true;
 		} else {
 			return false;
