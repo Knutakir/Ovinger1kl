@@ -12,14 +12,7 @@ class Oppgaveoversikt{
 	}
 
 	public int antOppgStudent(Student stud){
-		/*int antOppgStud = 0;
-		String studNavn = stud.getNavn();
-		for(int i = 0; i < studenter.length; i++){
-			if(studNavn.equals(studenter[i].getNavn())){
-				antOppgStud = stud.getAntOppg();
-			}
-		}*/
-		return stud.getAntOppg();//antOppgStud = stud.getAntOppg();//antOppgStud;
+		return stud.getAntOppg();
 	}
 
 	public void regNyStudent(Student nyStudent){
@@ -39,13 +32,11 @@ class Oppgaveoversikt{
 
 	}
 
-	public void godkjennOppg(String studentNavn, int antNyeGodkjente){//Student studenten){
+	public void godkjennOppg(String studentNavn, int antNyeGodkjente){
 		for(int i = 0; i < studenter.length; i++){
-			Student tempStudent = studenter[i];
-			System.out.println(tempStudent.getNavn() + "   " + studentNavn);
-			/*if(studenter[i].getNavn().equals(studentNavn)){
+			if(studenter[i].getNavn().equals(studentNavn)){
 				studenter[i].okAntOppg(antNyeGodkjente);
-			}*/
+			}
 		}
 	}
 
