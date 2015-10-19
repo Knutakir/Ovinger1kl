@@ -21,8 +21,8 @@ class Oppgave1{
 			String mndSkattLest = showInputDialog("Skiv inn mnd.lønn.").replace(",", ".");
 			String skattPrLest = showInputDialog("Skriv inn skatteprosent").replace(",", ".");
 
-			p1= new Person(navnLest.split(" ")[0], navnLest.split(" ")[1], Integer.parseInt(fodselsAarLest));
-		 	arbTaker1= new ArbTaker(p1, Integer.parseInt(arbNrLest), Integer.parseInt(startAarLest), Integer.parseInt(mndSkattLest), Double.parseDouble(skattPrLest));
+			p1 = new Person(navnLest.split(" ")[0], navnLest.split(" ")[1], Integer.parseInt(fodselsAarLest));
+		 	arbTaker1 = new ArbTaker(p1, Integer.parseInt(arbNrLest), Integer.parseInt(startAarLest), Integer.parseInt(mndSkattLest), Double.parseDouble(skattPrLest));
 		}
 
 		String[] muligheter = {"Hente verdier", "Endre eksisterende verdier", "Annet", "Avslutte?"};
