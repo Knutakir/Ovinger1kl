@@ -7,6 +7,19 @@ class Oppgaveoversikt{
 		this.antStud = antStud;
 	}
 
+	public Student studentVedNavn(String navn){
+		for(int i = 0; i < antStud; i++){
+			if(studenter[i].getNavn().equals(navn)){
+				return studenter[i];
+			}
+		}
+		return new Student("INGEN STUDENT", 0);
+	}
+
+	public String studentNavnVedId(int studId){
+		return studenter[studId].getNavn();
+	}
+
 	public int studenterRegistrert(){
 		return antStud;
 	}
@@ -40,7 +53,7 @@ class Oppgaveoversikt{
 		}
 	}
 
-	public String toString(){
+	public String toString(){//burde egentlig printe ut hver enkelt student ved hjelp av en for-loop her. Siden denne metoden bare returnerer referansen til tabellen.
 		return studenter + " " + antStud;
 	}
 }
