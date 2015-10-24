@@ -17,6 +17,7 @@ $RECYCLE.BIN/
 *.class
 *.jar
 *.bin
+*.bat
 
 # Windows shortcuts
 *.lnk
