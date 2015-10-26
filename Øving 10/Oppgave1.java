@@ -58,6 +58,7 @@ class Oppgave1{
 					String lesStudOppg = showInputDialog("Hvor mange øvinger skal studenten ha godkjent?");
 					int studOppgG = Integer.parseInt(lesStudOppg);
 					oppgov.regNyStudent(new Student(lesStudNavn, studOppgG));
+					showMessageDialog(null, lesStudNavn + " er registrert med " + studOppgG + " ant. oppg. godkjente.");
 					break;
 
 				default:
