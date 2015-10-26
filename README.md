@@ -4,12 +4,12 @@ Jeg skal legge ut øvingene etterhvert her, og de som er lagt ut så langt er ø
 
 ##Øvinger
 - [1](Øving 1)
-- 2
-- 3
-- 4
-- 5
-- 6
-- 7
-- 8
-- 9
-- 10
+- [2](Øving 2)
+- [3](Øving 3)
+- [4](Øving 4)
+- [5](Øving 5)
+- [6](Øving 6)
+- [7](Øving 7)
+- [8](Øving 8)
+- [9](Øving 9)
+- [10](Øving 10)
