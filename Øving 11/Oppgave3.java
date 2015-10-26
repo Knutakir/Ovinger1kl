@@ -10,7 +10,7 @@ class Oppgave3{
 
 		Konto kontoen = new Konto(1337);
 
-		String[] muligheter = {"Ta ut penger", "Sette inn penger", "Avslutte"};
+		String[] muligheter = {"Ta ut penger", "Sette inn penger", "Hente kontoinformasjon", "Avslutte"};
 
 		while(true){
 			int utEllerInn = showOptionDialog(null, "Hva vil du gjøre?", "Velkommen til Kirkhorn bank!", 0, QUESTION_MESSAGE, null, muligheter, muligheter[0]);
@@ -28,6 +28,16 @@ class Oppgave3{
 					int innAntPenger = Integer.parseInt(innAntPengerLest);
 
 					kontoen.setSaldo(false, innAntPenger);
+					break;
+				case 2:
+					String[] henteMuligheter = {"Hente saldo", "Hente transaksjonsliste"};
+					int saldoEllerTrans = showOptionDialog(null, "Hva vil du gjøre?", "Kontoinformasjon", 0, QUESTION_MESSAGE, null, henteMuligheter, henteMuligheter[0]);
+
+					if(saldoEllerTrans == 0){
+						showMessageDialog(null, "Saldoen er: " + kontoen.getSaldo());
+					} else {
+						showMessageDialog(null, "Transaksjonsliste:\n" + kontoen.getTransListe());
+					}
 					break;
 				default:
 					return;
