@@ -1,13 +1,13 @@
-import static com.jogamp.opengl.GL2.*;
-import com.jogamp.opengl.GL2;
-import com.jogamp.opengl.glu.GLU;
-import com.jogamp.opengl.GLEventListener;
-import com.jogamp.opengl.awt.GLCanvas;
-import com.jogamp.opengl.GLAutoDrawable;
-import com.jogamp.opengl.GLCapabilities;
-import static com.jogamp.opengl.fixedfunc.GLMatrixFunc.GL_MODELVIEW;
-import static com.jogamp.opengl.fixedfunc.GLMatrixFunc.GL_PROJECTION;
-import com.jogamp.opengl.util.FPSAnimator;
+	import static com.jogamp.opengl.GL2.*;
+	import com.jogamp.opengl.GL2;
+	import com.jogamp.opengl.glu.GLU;
+	import com.jogamp.opengl.GLEventListener;
+	import com.jogamp.opengl.awt.GLCanvas;
+	import com.jogamp.opengl.GLAutoDrawable;
+	import com.jogamp.opengl.GLCapabilities;
+	import static com.jogamp.opengl.fixedfunc.GLMatrixFunc.GL_MODELVIEW;
+	import static com.jogamp.opengl.fixedfunc.GLMatrixFunc.GL_PROJECTION;
+	import com.jogamp.opengl.util.FPSAnimator;
 
 public class Grafikken extends GLCanvas implements GLEventListener{
 
@@ -41,12 +41,21 @@ public class Grafikken extends GLCanvas implements GLEventListener{
 		gl.glTranslatef(-1.5f, 0.0f, -8.0f);
 		gl.glColor3f(1.0f, 0.0f, 0.0f);
 
-		//Tegn trekant
+		//Tegn trekant nr 1
 		gl.glBegin(GL_TRIANGLES);
 		gl.glVertex3f(1.0f, 1.0f, 0.0f); //TOP
 		gl.glVertex3f(0.0f, 0.0f, 0.0f); //Bottom left
 		gl.glVertex3f(2.0f, 0.0f, 1.0f); //Bottom right
 		gl.glEnd();
+
+		//Tegn trekant nr 2
+		gl.glColor3f(0.5f, 1.0f, 0.5f);
+		gl.glBegin(GL_TRIANGLES);
+		gl.glVertex3f(0.0f, 0.5f, 0.0f);
+		gl.glVertex3f(-0.5f, 0.0f, 0.0f);
+		gl.glVertex3f(1.0f, 0.0f, 0.0f);
+		gl.glEnd();
+
 
 		//Flytte figuren til høyre med tre punkt
 		gl.glTranslatef(3.0f, 0.0f, 0.0f);
