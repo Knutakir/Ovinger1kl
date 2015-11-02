@@ -14,3 +14,5 @@ Jeg skal legge ut øvingene etterhvert her, og de som er lagt ut så langt er ø
 - [Øving 9](Øving 9)
 - [Øving 10](Øving 10)
 - [Øving 11](Øving 11)
+- [Øving 12](Øving 12)
+- [Øving 13](Øving 13)
