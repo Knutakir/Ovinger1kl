@@ -89,7 +89,7 @@ class Grafikken extends GLCanvas implements GLEventListener{
 	public void display(GLAutoDrawable glDrawable){
 		GL2 gl = glDrawable.getGL().getGL2();
 		drawGLScene(glDrawable);
-		//tegnKube(glDrawable);
+		//tegnKube(gl);
 		oppdater();
 		gl.glFlush();
 	}
