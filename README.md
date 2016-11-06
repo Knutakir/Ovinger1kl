@@ -1,6 +1,6 @@
 ﻿# Programmeringsøvinger
-Øvinger fra 1.klasse på Data på HiST i faget TDAT1001 Programmering grunnkurs, og programmert i språket Java.
-Jeg skal legge ut øvingene etterhvert her, og de som er lagt ut er øving 1-14. De øvingene som er lagt ut her, er øvinger som er godkjent av veileder på HiST.
+Øvinger fra 1.klasse Dataingeniør på HiST(NTNU) i faget TDAT1001 Programmering grunnkurs, og programmert i språket Java.
+Øvingene er godkjent av veileder på HiST(NTNU).
 
 ##Øvinger
 - [Øving 1](Øving 01)
