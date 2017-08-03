@@ -1,5 +1,5 @@
 # Programmering grunnkurs
-Øvinger fra TDAT1001 Programmering grunnkurs, høsten 2015, 1. dataingeniør på NTNU.
+Øvinger fra TDAT1001 Programmering grunnkurs, høsten 2015, 1. klasse dataingeniør på NTNU.
 
 ## Øvinger
 - [Øving 1](Øving%2001)
