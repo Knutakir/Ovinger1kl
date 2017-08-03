@@ -1,6 +1,5 @@
 # Programmering grunnkurs
-Øvinger fra 1.klasse Dataingeniør på HiST(NTNU) i faget TDAT1001 Programmering grunnkurs, og programmert i språket Java.
-Øvingene er godkjent av veileder på HiST(NTNU).
+Øvinger fra TDAT1001 Programmering grunnkurs, høsten 2015, 1. dataingeniør på NTNU.
 
 ## Øvinger
 - [Øving 1](Øving%2001)
