@@ -17,5 +17,8 @@
 - [Øving 13](Øving%2013)
 - [Øving 14](Øving%2014)
 
+## Prosjekt
+Se eget repository for prosjekt om LeJOS roboter [her](https://github.com/Knutakir/Legoboys-15).
+
 ## Se andre emner
 Se [liste-over-emener](https://github.com/Knutakir/liste-over-emner) for en liste over alle emner jeg har hatt på NTNU.
